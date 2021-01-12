@@ -1,0 +1,579 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 50;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		C037414E25AB7D8100E5CBDB /* suicomApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = C037414D25AB7D8100E5CBDB /* suicomApp.swift */; };
+		C037415025AB7D8100E5CBDB /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = C037414F25AB7D8100E5CBDB /* ContentView.swift */; };
+		C037415225AB7D8400E5CBDB /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = C037415125AB7D8400E5CBDB /* Assets.xcassets */; };
+		C037415525AB7D8400E5CBDB /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = C037415425AB7D8400E5CBDB /* Preview Assets.xcassets */; };
+		C037416025AB7D8500E5CBDB /* suicomTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = C037415F25AB7D8500E5CBDB /* suicomTests.swift */; };
+		C037416B25AB7D8500E5CBDB /* suicomUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = C037416A25AB7D8500E5CBDB /* suicomUITests.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		C037415C25AB7D8500E5CBDB /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = C037414225AB7D8100E5CBDB /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = C037414925AB7D8100E5CBDB;
+			remoteInfo = suicom;
+		};
+		C037416725AB7D8500E5CBDB /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = C037414225AB7D8100E5CBDB /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = C037414925AB7D8100E5CBDB;
+			remoteInfo = suicom;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		C037414A25AB7D8100E5CBDB /* suicom.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = suicom.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		C037414D25AB7D8100E5CBDB /* suicomApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = suicomApp.swift; sourceTree = "<group>"; };
+		C037414F25AB7D8100E5CBDB /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
+		C037415125AB7D8400E5CBDB /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		C037415425AB7D8400E5CBDB /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		C037415625AB7D8400E5CBDB /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		C037415B25AB7D8500E5CBDB /* suicomTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = suicomTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		C037415F25AB7D8500E5CBDB /* suicomTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = suicomTests.swift; sourceTree = "<group>"; };
+		C037416125AB7D8500E5CBDB /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		C037416625AB7D8500E5CBDB /* suicomUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = suicomUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		C037416A25AB7D8500E5CBDB /* suicomUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = suicomUITests.swift; sourceTree = "<group>"; };
+		C037416C25AB7D8500E5CBDB /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		C037414725AB7D8100E5CBDB /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		C037415825AB7D8500E5CBDB /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		C037416325AB7D8500E5CBDB /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		C037414125AB7D8100E5CBDB = {
+			isa = PBXGroup;
+			children = (
+				C037414C25AB7D8100E5CBDB /* suicom */,
+				C037415E25AB7D8500E5CBDB /* suicomTests */,
+				C037416925AB7D8500E5CBDB /* suicomUITests */,
+				C037414B25AB7D8100E5CBDB /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		C037414B25AB7D8100E5CBDB /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				C037414A25AB7D8100E5CBDB /* suicom.app */,
+				C037415B25AB7D8500E5CBDB /* suicomTests.xctest */,
+				C037416625AB7D8500E5CBDB /* suicomUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		C037414C25AB7D8100E5CBDB /* suicom */ = {
+			isa = PBXGroup;
+			children = (
+				C037414D25AB7D8100E5CBDB /* suicomApp.swift */,
+				C037414F25AB7D8100E5CBDB /* ContentView.swift */,
+				C037415125AB7D8400E5CBDB /* Assets.xcassets */,
+				C037415625AB7D8400E5CBDB /* Info.plist */,
+				C037415325AB7D8400E5CBDB /* Preview Content */,
+			);
+			path = suicom;
+			sourceTree = "<group>";
+		};
+		C037415325AB7D8400E5CBDB /* Preview Content */ = {
+			isa = PBXGroup;
+			children = (
+				C037415425AB7D8400E5CBDB /* Preview Assets.xcassets */,
+			);
+			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+		C037415E25AB7D8500E5CBDB /* suicomTests */ = {
+			isa = PBXGroup;
+			children = (
+				C037415F25AB7D8500E5CBDB /* suicomTests.swift */,
+				C037416125AB7D8500E5CBDB /* Info.plist */,
+			);
+			path = suicomTests;
+			sourceTree = "<group>";
+		};
+		C037416925AB7D8500E5CBDB /* suicomUITests */ = {
+			isa = PBXGroup;
+			children = (
+				C037416A25AB7D8500E5CBDB /* suicomUITests.swift */,
+				C037416C25AB7D8500E5CBDB /* Info.plist */,
+			);
+			path = suicomUITests;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		C037414925AB7D8100E5CBDB /* suicom */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = C037416F25AB7D8500E5CBDB /* Build configuration list for PBXNativeTarget "suicom" */;
+			buildPhases = (
+				C037414625AB7D8100E5CBDB /* Sources */,
+				C037414725AB7D8100E5CBDB /* Frameworks */,
+				C037414825AB7D8100E5CBDB /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = suicom;
+			productName = suicom;
+			productReference = C037414A25AB7D8100E5CBDB /* suicom.app */;
+			productType = "com.apple.product-type.application";
+		};
+		C037415A25AB7D8500E5CBDB /* suicomTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = C037417225AB7D8500E5CBDB /* Build configuration list for PBXNativeTarget "suicomTests" */;
+			buildPhases = (
+				C037415725AB7D8500E5CBDB /* Sources */,
+				C037415825AB7D8500E5CBDB /* Frameworks */,
+				C037415925AB7D8500E5CBDB /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				C037415D25AB7D8500E5CBDB /* PBXTargetDependency */,
+			);
+			name = suicomTests;
+			productName = suicomTests;
+			productReference = C037415B25AB7D8500E5CBDB /* suicomTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		C037416525AB7D8500E5CBDB /* suicomUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = C037417525AB7D8500E5CBDB /* Build configuration list for PBXNativeTarget "suicomUITests" */;
+			buildPhases = (
+				C037416225AB7D8500E5CBDB /* Sources */,
+				C037416325AB7D8500E5CBDB /* Frameworks */,
+				C037416425AB7D8500E5CBDB /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				C037416825AB7D8500E5CBDB /* PBXTargetDependency */,
+			);
+			name = suicomUITests;
+			productName = suicomUITests;
+			productReference = C037416625AB7D8500E5CBDB /* suicomUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		C037414225AB7D8100E5CBDB /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 1210;
+				LastUpgradeCheck = 1210;
+				TargetAttributes = {
+					C037414925AB7D8100E5CBDB = {
+						CreatedOnToolsVersion = 12.1;
+					};
+					C037415A25AB7D8500E5CBDB = {
+						CreatedOnToolsVersion = 12.1;
+						TestTargetID = C037414925AB7D8100E5CBDB;
+					};
+					C037416525AB7D8500E5CBDB = {
+						CreatedOnToolsVersion = 12.1;
+						TestTargetID = C037414925AB7D8100E5CBDB;
+					};
+				};
+			};
+			buildConfigurationList = C037414525AB7D8100E5CBDB /* Build configuration list for PBXProject "suicom" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = C037414125AB7D8100E5CBDB;
+			productRefGroup = C037414B25AB7D8100E5CBDB /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				C037414925AB7D8100E5CBDB /* suicom */,
+				C037415A25AB7D8500E5CBDB /* suicomTests */,
+				C037416525AB7D8500E5CBDB /* suicomUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		C037414825AB7D8100E5CBDB /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				C037415525AB7D8400E5CBDB /* Preview Assets.xcassets in Resources */,
+				C037415225AB7D8400E5CBDB /* Assets.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		C037415925AB7D8500E5CBDB /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		C037416425AB7D8500E5CBDB /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		C037414625AB7D8100E5CBDB /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				C037415025AB7D8100E5CBDB /* ContentView.swift in Sources */,
+				C037414E25AB7D8100E5CBDB /* suicomApp.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		C037415725AB7D8500E5CBDB /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				C037416025AB7D8500E5CBDB /* suicomTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		C037416225AB7D8500E5CBDB /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				C037416B25AB7D8500E5CBDB /* suicomUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		C037415D25AB7D8500E5CBDB /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = C037414925AB7D8100E5CBDB /* suicom */;
+			targetProxy = C037415C25AB7D8500E5CBDB /* PBXContainerItemProxy */;
+		};
+		C037416825AB7D8500E5CBDB /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = C037414925AB7D8100E5CBDB /* suicom */;
+			targetProxy = C037416725AB7D8500E5CBDB /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		C037416D25AB7D8500E5CBDB /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.1;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		C037416E25AB7D8500E5CBDB /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.1;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		C037417025AB7D8500E5CBDB /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_ASSET_PATHS = "\"suicom/Preview Content\"";
+				ENABLE_PREVIEWS = YES;
+				INFOPLIST_FILE = suicom/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = git.suicom;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		C037417125AB7D8500E5CBDB /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_ASSET_PATHS = "\"suicom/Preview Content\"";
+				ENABLE_PREVIEWS = YES;
+				INFOPLIST_FILE = suicom/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = git.suicom;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		C037417325AB7D8500E5CBDB /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = suicomTests/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = git.suicomTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/suicom.app/suicom";
+			};
+			name = Debug;
+		};
+		C037417425AB7D8500E5CBDB /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = suicomTests/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = git.suicomTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/suicom.app/suicom";
+			};
+			name = Release;
+		};
+		C037417625AB7D8500E5CBDB /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = suicomUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = git.suicomUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = suicom;
+			};
+			name = Debug;
+		};
+		C037417725AB7D8500E5CBDB /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = suicomUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = git.suicomUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = suicom;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		C037414525AB7D8100E5CBDB /* Build configuration list for PBXProject "suicom" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				C037416D25AB7D8500E5CBDB /* Debug */,
+				C037416E25AB7D8500E5CBDB /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		C037416F25AB7D8500E5CBDB /* Build configuration list for PBXNativeTarget "suicom" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				C037417025AB7D8500E5CBDB /* Debug */,
+				C037417125AB7D8500E5CBDB /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		C037417225AB7D8500E5CBDB /* Build configuration list for PBXNativeTarget "suicomTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				C037417325AB7D8500E5CBDB /* Debug */,
+				C037417425AB7D8500E5CBDB /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		C037417525AB7D8500E5CBDB /* Build configuration list for PBXNativeTarget "suicomUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				C037417625AB7D8500E5CBDB /* Debug */,
+				C037417725AB7D8500E5CBDB /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = C037414225AB7D8100E5CBDB /* Project object */;
+}
