@@ -2,15 +2,32 @@
 //  ContentView.swift
 //  suicom
 //
-//  Created by morse on 1/10/21.
+//  Created by morse on 1/9/21.
 //
 
 import SwiftUI
 
 struct ContentView: View {
     var body: some View {
-        Text("Hello, world!")
-            .padding()
+        VStack {
+            Text("Hello, 1!")
+                .padding()
+            Text("Hello, 2!")
+                .padding()
+                .accentColor(.blue)
+            HStack {
+                Button(action: {
+                    print("1")
+                }, label: {
+                    Text("Button 1")
+                })
+                Button(action: {
+                    print("2")
+                }, label: {
+                    Text("Button 2")
+                })
+            }
+        }
     }
 }
 
